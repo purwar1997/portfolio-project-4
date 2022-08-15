@@ -9,7 +9,7 @@
 
 ## Description
 
-A simple home page for a digital marketig agency created using
+A simple home page for a digital marketing agency created using
 `HTML` and `CSS`. This project is hosted on both `Netlify` and `Vercel`.
 
 **Created By :** Shubham Purwar
