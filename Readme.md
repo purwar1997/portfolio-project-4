@@ -25,4 +25,4 @@ A simple home page for a digital marketing agency created using
 - How to create buttons
 - How to add custom `animations` to the buttons using `keyframes`
 
-### [**Live link**](https://portfolio-project-4-chi.vercel.app/) of the project.
+### [**Live link**](https://portfolio-project-4-chi.vercel.app/) of the project
