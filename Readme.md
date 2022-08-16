@@ -2,7 +2,8 @@
 
 ![HTML](https://img.shields.io/badge/-HTML-red)
 ![CSS](https://img.shields.io/badge/-CSS-brightgreen)
-![CSS Animations](https://img.shields.io/badge/-CSS%20Animations-orange)
+![Animations](https://img.shields.io/badge/-Animations-orange)
+![Keyframes](https://img.shields.io/badge/-Keyframes-yellow)
 ![Psuedo Selectors](https://img.shields.io/badge/-Psuedo%20Selectors-blue)
 ![Netlify](https://img.shields.io/badge/-Netlify-green)
 ![Vercel](https://img.shields.io/badge/-Vercel-blueviolet)
@@ -16,7 +17,7 @@ A simple home page for a digital marketing agency created using
 
 **Time took to complete this project :** 3 hours
 
-## Things I learnt by creating this project :-
+## What I learnt by doing this project :-
 
 - How to create a navigation bar
 - How to use CSS psuedo selectors `:first-child` and `nth-child()`
@@ -24,4 +25,4 @@ A simple home page for a digital marketing agency created using
 - How to create buttons
 - How to add custom `animations` to the buttons using `keyframes`
 
-To view this project, [**click here**](https://portfolio-project-4-chi.vercel.app/).
+[**Live link**](https://portfolio-project-4-chi.vercel.app/) of the project.
