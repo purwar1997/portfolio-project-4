@@ -5,90 +5,76 @@
   font-family: "Poppins";
 }
 
-button:hover {
-  cursor: pointer;
-  animation: btn-zoom 200ms ease 1 forwards;
+button {
+  background-color: #5955b3;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 250ms ease;
 }
 
-@keyframes btn-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.08);
-  }
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .container {
   height: 100vh;
 }
 
-section[aria-label="navbar"] {
-  height: 20%;
-}
-
 .navbar-container {
-  position: relative;
-  top: 45px;
+  padding-top: 30px;
 }
 
-.navbar-container div {
+.navbar-container > div {
   display: inline-block;
 }
 
 img[alt="brand-logo"] {
   margin-left: 70px;
+  width: 120px;
   cursor: pointer;
+  position: relative;
+  top: 13px;
 }
 
 .list {
-  margin-left: 50px;
+  margin-left: 40px;
   list-style-type: none;
 }
 
 .list-item {
   display: inline-block;
   margin-left: 40px;
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   color: #b5b5b5;
-  position: relative;
-  bottom: 20px;
   cursor: pointer;
 }
 
 .list-item:first-child {
-  color: #2a2a2a;
+  color: #000000;
 }
 
 .button-group .nav-button {
-  margin-left: 280px;
-  background-color: #5955b3;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
+  margin-left: 340px;
   padding: 10px 25px;
-  position: relative;
-  bottom: 20px;
 }
 
-section[aria-label="banner"] {
-  height: 80%;
-}
-
-.banner-container div:nth-child(1) {
+.banner-container div:first-child {
   float: left;
   width: 40vw;
   margin-left: 70px;
-  position: relative;
-  top: 70px;
+  margin-top: 100px;
 }
 
 .heading-text {
   font-size: 50px;
+  font-weight: 600;
   color: #382b5c;
+  line-height: 1.3;
 }
 
 .heading-text span {
@@ -96,31 +82,24 @@ section[aria-label="banner"] {
 }
 
 .description {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 500;
-  color: #b5b5b5;
+  color: #949494;
   padding-top: 20px;
-  padding-right: 20px;
+  width: 90%;
 }
 
 .nav-button.btn {
-  background-color: #5955b3;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
+  margin-top: 35px;
   padding: 15px 30px;
-  position: relative;
-  top: 50px;
 }
 
-.banner-container div:nth-child(2) {
+.banner-container div:last-child {
   float: right;
 }
 
 img[alt="illustration"] {
-  height: 480px;
+  height: 500px;
   position: relative;
-  top: 20px;
+  top: 40px;
 }
