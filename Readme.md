@@ -5,7 +5,7 @@
 
 ## Description
 
-This project is a landing page for a digital agency. Is is built using `HTML` and `CSS`.
+This project is a landing page for a digital agency. It is built using `HTML` and `CSS`.
 
 ### Learnings from this project -
 
